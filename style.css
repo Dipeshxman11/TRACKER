@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+  }
+  
+  header {
+    background: #4caf50;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .container {
+    margin: auto;
+    width: 500px;
+    padding: 3rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  #my-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #my-form input[type='text'],
+  #my-form input[type='number'],
+  #my-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #my-form .btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #4caf50;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #my-form .btn:hover {
+    background-color: #45a049;
+  }
+  
+  .msg {
+    color: #af0505;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  #listOfItems li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #listOfItems li button {
+    width: 60px;
+    margin-left: 8px;
+    padding: 8px;
+    border: none;
+    background-color: #f44336;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #listOfItems li button:hover {
+    background-color: #e53935;
+  }
+  

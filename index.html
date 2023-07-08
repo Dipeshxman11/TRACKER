@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>BOOKING APP</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="bg-success py-2">
+      <h1 class="text-center text-white">EXPENSE TRACKER</h1>
+    </header>
+
+    <section class="container mt-5">
+      <form id="my-form">
+        <div class="msg"></div>
+        <div class="mb-3">
+          <label for="Expense" class="form-label">Choose Expense Amount:</label>
+          <input type="number" id="Expense" class="form-control" />
+        </div>
+        <div class="mb-3">
+          <label for="Description" class="form-label">Choose Description:</label>
+          <input type="text" id="Description" class="form-control" autocomplete="Description" />
+        </div>
+        <div class="mb-3">
+          <label for="Category" class="form-label">Choose Category:</label>
+          <select id="Category" class="form-control">
+            <option value="">Select a category</option>
+            <option value="Food">Food</option>
+            <option value="Travel">Travel</option>
+            <option value="Clothes">Clothes</option>
+            <option value="Entertainment">Entertainment</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <input class="btn btn-primary" type="submit" value="Add Expense" />
+      </form>
+      <ul id="listOfItems"></ul>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
